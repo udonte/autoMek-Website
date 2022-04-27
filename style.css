@@ -36,7 +36,7 @@
   color: #000;
 }
 .right-section .navigation {
-  border-right: 12px solid #ccc;
+  border-right: 5px solid #ccc;
 }
 .road-assistance .icon {
   margin-right: 10px;
@@ -201,7 +201,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
+  width: 80px;
   height: 50px;
   border-radius: 50%;
   background-color: #661ce7;
@@ -268,16 +268,21 @@
   background: #ff6433;
   color: #fff;
 }
+#milestone-section {
+  background-color: #f2f2f2;
+}
 .milestone-images {
   display: flex;
-  height: 502px;
+  height: 400px;
   justify-content: space-between;
 }
 .milestone-images .image-box {
   width: 50%;
 }
-.milestone-images img {
+.milestone-images .image-box img {
+  background-size: contain;
   width: 100%;
+  height: 100%;
 }
 .milestone-numbers {
   display: flex;
@@ -291,6 +296,11 @@
 }
 .milestone-reached h2 {
   color: #661ce7;
+}
+
+#brands-section {
+  background-color: #fafafa;
+  margin-bottom: 125px;
 }
 #brands-section .container {
   padding: 80px;
@@ -307,11 +317,12 @@
 .brand-box-row {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  gap: 30px;
 }
 .brand-box {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
 }
